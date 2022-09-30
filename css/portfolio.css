@@ -2,15 +2,15 @@ body {
   font-family: "Roboto", sans-serif;
 }
 /* -----------Header------------  */
-header {
+.header-style {
   background: #ffffff;
   border: solid 1px;
   border-color: #ececec;
 }
-li {
+.list-style {
   list-style: none;
 }
-a {
+.link {
   text-decoration: none;
 }
 .logo {
@@ -46,10 +46,11 @@ a {
 
 /* -----------Header------------  */
 /* -----------Main------------  */
-main {
+.main-style {
   background-color: #ffffff;
 }
 .button {
+  font-family: "Roboto";
   background: #f5f4fa;
   color: #212121;
   border-radius: 4px;
@@ -87,10 +88,10 @@ main {
 }
 /* -----------Main------------  */
 /* -----------Footer------------  */
-footer {
+.footer-style {
   background: #2f303a;
 }
-.footer {
+.footer-logo {
   color: #ffffff;
 }
 .webstudio-adress {
